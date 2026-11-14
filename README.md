@@ -1,9 +1,23 @@
-# namehider
+# NameHider
 
-## Setup
+**A Minecraft mod that hides player identity.**
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Features
+
+- **Nickname Obfuscation** — makes player nicknames unrecognizable.
+- **Skin Hiding** — hides player skins.
+- **Cape Hiding** — hides player capes.
+
+## About
+
+NameHider changes how other players appear in Minecraft by making their nicknames unrecognizable and hiding their skins and capes.
+
+## Installation
+
+1. Download the mod.
+2. Place the `.jar` file into your Minecraft `mods` folder.
+3. Launch Minecraft with the required mod loader.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+See the LICENSE file for details.
