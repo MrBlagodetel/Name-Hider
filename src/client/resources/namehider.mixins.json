@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.namehider.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "LiteralContentsMixin",
+    "StringDecomposerMixin",
+    "ClientLanguageMixin",
+    "AbstractClientPlayerMixin",
+    "PlayerInfoMixin",
+    "MutableComponentMixin",
+    "PlayerSkinMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

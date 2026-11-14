@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "namehider",
+  "version": "${version}",
+  "name": "Name Hider",
+  "description": "Скрывает ник, меняет скин и плащ, профили. Настройки в Mod Menu. / Hides nickname, swaps skin and cape, profiles. Settings in Mod Menu.",
+  "icon": "assets/namehider/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.namehider.NameHiderClient"],
+    "modmenu": ["com.namehider.NameHiderModMenu"]
+  },
+  "mixins": ["namehider.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
